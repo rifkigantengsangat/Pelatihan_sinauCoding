@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <style>
+      * {
+        margin: 0%;
+        padding: 0%;
+        box-sizing: border-box;
+      }
+      .container {
+        width: 90%;
+        margin: auto;
+        height: 100vh;
+      }
+      td {
+        text-align: center;
+      }
+      .keterangan {
+        text-align: left;
+      }
+    </style>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <table width="100%" border="1">
+        <thead>
+          <tr>
+            <th width="10%">Jenis</th>
+            <th width="30%">Hasil</th>
+            <th width="60%">Keterangan</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr height="40">
+            <td>Text</td>
+            <td><input type="text" /></td>
+            <td class="keterangan">Tipe Inputan Yang Diterima Adalah Text</td>
+          </tr>
+          <tr height="40">
+            <td>Email</td>
+            <td><input type="email" /></td>
+            <td class="keterangan">
+              Tipe Inputan Yang Diterima Adalah Email dan mengandung validasi
+            </td>
+          </tr>
+          <tr height="40">
+            <td>Number</td>
+            <td><input type="number" /></td>
+            <td class="keterangan">
+              Tipe inputan yang diterima adalah number/angka dan yang diterima
+              adalah angka
+            </td>
+          </tr>
+          <tr height="40">
+            <td>password</td>
+            <td><input type="password" /></td>
+            <td class="keterangan">
+              Tipe inputan yang diterima adalah text tetapi disembunyikan dalam
+              bentuk bintang
+            </td>
+          </tr>
+          <tr height="40">
+            <td>Radio</td>
+            <td>
+              <span><input type="radio" /> Radio 1</span>
+              <span><input type="radio" />Radio 2</span>
+            </td>
+            <td class="keterangan">
+              Tipe inputan yang diterima adalah berupa pilihan dan hanya bisa di
+              pilih salah satu
+            </td>
+          </tr>
+          <tr height="40">
+            <td>Checkbox</td>
+            <td>
+              <span>Chexbox 1<input type="checkbox" /></span>
+              <span>Checkbox 2<input type="checkbox" /></span>
+            </td>
+            <td class="keterangan">
+              Tipe inputan yang diterima adalah checklist dan bisa dipilih
+              beberapa
+            </td>
+          </tr>
+          <tr height="40">
+            <td>Range</td>
+            <td><input type="range" /></td>
+            <td class="keterangan">
+              Tipe inputan yang diterima adalah bar yang bisa di geser
+            </td>
+          </tr>
+          <tr height="40">
+            <td>Time</td>
+            <td><input type="time" /></td>
+            <td class="keterangan">
+              Tipe inputan yang diterima adalah format waktu
+            </td>
+          </tr>
+          <tr height="40">
+            <td>Date</td>
+            <td><input type="date" /></td>
+            <td class="keterangan">
+              Tipe inputan yang diterima adalah format wakut dalam satuan hari(hh),bulan(bb),tahun(ttt)
+            </td>
+          </tr>
+          <tr height="40">
+            <td>Week</td>
+            <td><input type="week" /></td>
+            <td class="keterangan">
+              Tipe inputan yang diterima adalah format wakut dalam kurun seminggu
+            </td>
+          </tr>
+          <tr height="40">
+            <td>Month</td>
+            <td><input type="month" /></td>
+            <td class="keterangan">
+              Tipe inputan yang diterima adalah format wakut dalam satuan hari bulan(bbbbbb)dan tahun(ttt)
+            </td>
+
+          </tr>
+          <tr height="40">
+            <td>Color</td>
+            <td><input type="color" /></td>
+            <td class="keterangan">
+              Tipe inputan yang diterima adalah berupa warna yang di hasilkan
+            </td>
+          </tr>
+          <tr height="40">
+            <td>File</td>
+            <td><input type="file" /></td>
+            <td class="keterangan">
+              Tipe inputan yang diterima adalah dalam bentuk file
+            </td>
+          </tr>
+          <tr height="40">
+            <td>Combo box</td>
+            <td><select>
+                <option>Option 1</option>
+                <option>Option 2</option>
+            </select></td>
+            <td class="keterangan">
+              Tipe inputan yang diterima adalah Option yang bisa di pilih
+            </td>
+          </tr>
+          <tr height="150">
+            <td>TextBox</td>
+            <td><textarea rows="8" cols="50"></textarea></td>
+            <td class="keterangan">
+              Tipe inputan yang diterima adalah text tetapi dalam karakter yang banyak
+            </td>
+          </tr>
+          <tr height="40">
+            <td>Button</td>
+            <td><button type="button">Button</button></td>
+            <td class="keterangan">
+              Suatu Tombol yang bisa melakukan action tertentu ketika di beri perintah
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </body>
+</html>
